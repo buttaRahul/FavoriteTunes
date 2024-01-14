@@ -42,4 +42,7 @@
      &nbsp &nbsp &nbsp python manage.py runserver
      
   </p>
+  <h3>Views:</h3>
+<!--   <img src></img> -->
+
 </div>
