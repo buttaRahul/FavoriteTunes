@@ -45,5 +45,7 @@
   </p>
   <h3>2.Views:</h3>
 <!--   <img src></img> -->
-
+<div >
+  ![Artist List View](images/artistview.png)
+</div>
 </div>
