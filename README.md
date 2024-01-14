@@ -10,6 +10,8 @@
         <li><a href="#">View for Adding New Artist</a></li>
         <li><a href="#">View for Adding New Song</a></li>
       </ul>
+      
     </li>
+    <li><a href="#">Technicals</a></li>
   </ol>
 </div>
