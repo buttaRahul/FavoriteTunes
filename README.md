@@ -46,6 +46,6 @@
   <h3>2.Views:</h3>
 <!--   <img src></img> -->
 <div >
-  [Artist List View](images/artistview.png)
+  <img src="images/artistview.png" alt="Artist List View">
 </div>
 </div>
