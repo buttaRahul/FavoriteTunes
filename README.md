@@ -15,4 +15,19 @@
     <li><a href="#">Technicals</a></li>
   </ol>
   <h3>1.Installation:</h3>
+  <p>
+    Clone the repository:
+      git clone https://github.com/buttaRahul/FavoriteTunes.git
+    Navigate to the project directory:
+      cd FaviruteTunes
+    Install dependencies:
+      pip install -r requirements.txt
+    Apply migrations:
+      python manage.py migrate
+    Create a superuser:
+      python manage.py createsuperuser
+    Run the development server:
+      python manage.py runserver
+     
+  </p>
 </div>
