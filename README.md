@@ -69,4 +69,13 @@
   <h5>View for all Songs by Artist</h5>
   <img src="images/artistsongsview.png" alt="Artist Songs View">
 </div>
+<div>
+  <p>Tech Stack:</p><br>
+  <ul>
+    <li>Python</li>
+    <li>Django</li>
+    <li>Template Inheritance</li>
+    <li>HTML</li>
+  </ul>
+</div>
 </div>
