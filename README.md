@@ -14,5 +14,5 @@
     </li>
     <li><a href="#">Technicals</a></li>
   </ol>
-  <h3>1.Installation</h3>
+  <h3>1.Installation:</h3>
 </div>
