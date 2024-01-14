@@ -19,7 +19,7 @@
     <br>
     Clone the repository:
     <br>
-      git clone https://github.com/buttaRahul/FavoriteTunes.git
+      &nbsp &nbsp git clone https://github.com/buttaRahul/FavoriteTunes.git
     <br>
     Navigate to the project directory:
     <br>
