@@ -5,7 +5,7 @@
     <li>
       <a href="#">Views</a>
       <ul>
-        <li><a href="#">View for Artists List</a></li>
+        <li><a href="aview">View for Artists List</a></li>
         <li><a href="#">View for Songs List</a></li>
         <li><a href="#">View for Catalog</a></li>
         <li><a href="#">View for Adding New Artist</a></li>
@@ -45,7 +45,8 @@
   </p>
   <h3>2.Views:</h3>
 <!--   <img src></img> -->
-<div >
+<div id='#aview' >
+  <h5>View for Artists List</h5>
   <img src="images/artistview.png" alt="Artist List View">
 </div>
 </div>
