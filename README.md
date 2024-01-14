@@ -19,20 +19,27 @@
     <br>
     Clone the repository:
     <br>
-      &nbsp &nbsp git clone https://github.com/buttaRahul/FavoriteTunes.git
+      &nbsp &nbsp &nbsp git clone https://github.com/buttaRahul/FavoriteTunes.git
     <br>
     Navigate to the project directory:
     <br>
-      cd FaviruteTunes
+      &nbsp &nbsp &nbsp cd FaviruteTunes
     <br>
     Install dependencies:
-      pip install -r requirements.txt
+     <br>
+     &nbsp &nbsp &nbsp pip install -r requirements.txt
+     <br>
     Apply migrations:
-      python manage.py migrate
+     <br>
+     &nbsp &nbsp &nbsp python manage.py migrate
+     <br>
     Create a superuser:
-      python manage.py createsuperuser
+     <br>
+     &nbsp &nbsp &nbsp python manage.py createsuperuser
+     <br>
     Run the development server:
-      python manage.py runserver
+     <br>
+     &nbsp &nbsp &nbsp python manage.py runserver
      
   </p>
 </div>
