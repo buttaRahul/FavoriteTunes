@@ -17,7 +17,6 @@
   </ol>
   <h3 id="inst">1.Installation:</h3>
   <p>
-    <br>
     Clone the repository:
     <br>
       &nbsp &nbsp &nbsp git clone https://github.com/buttaRahul/FavoriteTunes.git
