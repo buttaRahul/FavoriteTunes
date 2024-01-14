@@ -1,9 +1,9 @@
 <div>
   <h3>Table of Contents:</h3>
   <ol>
-    <li><a href="#">Installation</a></li>
+    <li><a href="#inst">Installation</a></li>
     <li>
-      <a href="#">Views</a>
+      <a href="#views">Views</a>
       <ul>
         <li><a href="#aview">View for Artists List</a></li>
         <li><a href="#sview">View for Songs List</a></li>
@@ -13,9 +13,9 @@
         <li><a href="#asong">View for Artist's Songs</a></li>
       </ul>
     </li>
-    <li><a href="#">Technicals</a></li>
+    <li><a href="#tech">Tech Stack</a></li>
   </ol>
-  <h3>1.Installation:</h3>
+  <h3 id="inst">1.Installation:</h3>
   <p>
     <br>
     Clone the repository:
@@ -43,7 +43,7 @@
      &nbsp &nbsp &nbsp python manage.py runserver
      
   </p>
-  <h3>2.Views:</h3>
+  <h3 id="views">2.Views:</h3>
 <!--   <img src></img> -->
 <div id='aview' >
   <h5>View for Artists List</h5>
@@ -70,7 +70,7 @@
   <img src="images/artistsongsview.png" alt="Artist Songs View">
 </div>
 <div>
-  <p>Tech Stack:</p><br>
+  <h3 id="tech">3.Tech Stack:</h3><br>
   <ul>
     <li>Python</li>
     <li>Django</li>
