@@ -10,6 +10,7 @@
         <li><a href="#">View for Catalog</a></li>
         <li><a href="#">View for Adding New Artist</a></li>
         <li><a href="#">View for Adding New Song</a></li>
+        <li><a href="#">View for Artist's Songs</a></li>
       </ul>
     </li>
     <li><a href="#">Technicals</a></li>
