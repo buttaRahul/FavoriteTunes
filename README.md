@@ -1,5 +1,5 @@
 <div>
-  <h3>Table of Contents</h3>
+  <h3>Table of Contents:</h3>
   <ol>
     <li><a href="#">Installation</a></li>
     <li>
