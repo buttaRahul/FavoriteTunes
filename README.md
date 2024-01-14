@@ -16,10 +16,15 @@
   </ol>
   <h3>1.Installation:</h3>
   <p>
+    <br>
     Clone the repository:
+    <br>
       git clone https://github.com/buttaRahul/FavoriteTunes.git
+    <br>
     Navigate to the project directory:
+    <br>
       cd FaviruteTunes
+    <br>
     Install dependencies:
       pip install -r requirements.txt
     Apply migrations:
