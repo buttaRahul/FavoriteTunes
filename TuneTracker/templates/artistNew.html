@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="titleBar">
+    <h3 class="title_text">Add Artist</h3>
+</div>
+<form method="post">
+    {% csrf_token %}
+    <div class="form_container">
+
+        <div class="form_control">
+            <label>Name</label>
+            <input name="name" />
+
+        </div>
+        <span class="error">
+            {% if errors %}
+            {{errors.0}}
+            {% endif %}
+        </span>
+        <div class="form_control">
+            <button type="submit">Add Artist</button>
+
+        </div>
+        {% if message %}
+        <span class="success">
+            {{message}}
+        </span>
+        {% endif %}
+    
+        {% endblock %}
+
+    </div>
+
+   
+</form>

@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    height: 500px;
+    border: 2px solid red;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column; 
+    
+}
+.menu_container{
+    background-color: rgb(16, 166, 216);
+    display: flex;
+    justify-content: space-around;
+    min-height: 30px;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid red !important;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px ;
+    padding-right: 10px ;
+
+    
+}
+
+
+
+.mainContainer .menu_container >a:hover{
+    /* text-decoration: underline ; */
+    /* text-decoration-color: brown; */
+    /* text-decoration-thickness: 5px; */
+    border-bottom: 3px solid red;
+    
+}
+
+.mainContainer_child{
+    height: 350px;
+    border: 2px solid red;
+    width: 800px;
+    margin: auto;
+    
+}
+
+.titleBar{
+    background-color: brown;
+    padding: 5px;
+}
+
+
+.title_text{
+    color: white;
+    /* font-style: ; */
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.listItem{
+    margin-top: 20px ;
+    padding: 10px;
+    width: 700px;
+    
+    /* margin: auto; */
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    
+}
+
+/* .artist_title {
+    width: 50%;
+} */
+
+.listItem > span{
+    width: 35%;
+    
+}
+
+
+.listItem:nth-child(odd){
+    background-color: rgb(228, 228, 108);
+}
+.listItem:nth-child(even){
+    background-color: rgb(226, 226, 159);
+}
+.listItem:hover{
+    background-color: grey ;
+    color: white;
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.form_control {
+    display: flex;
+    width: 700px;
+    /* padding: 5px; */
+
+
+    /* border: 10px solid red; */
+}
+
+.form_control >label {
+    padding-right: 20px !important;
+    font-size: 20px;
+    padding: 5px 5px;
+    width: 20%;
+}
+
+.form_control >input {
+    padding: 5px 5px;
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+.form_control >button {
+   flex-grow: 1;
+   padding: 5px 5px;
+   background-color: blueviolet;
+   color: white;
+   font-size: 20px;
+}
+
+.form_control >button:hover{
+    background-color: rgb(163, 92, 230);
+}
+
+.form_control > select{
+    flex-grow: 1;
+    padding: 5px 5px;
+    font-size: 20px;
+    
+}
+

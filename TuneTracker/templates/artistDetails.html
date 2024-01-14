@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+<div class="titleBar">
+    <h3 class="title_text">Artist Details</h3>
+</div>
+
+<div class="artistBar">
+    <h4>{{artist}}'s Songs</h4>
+</div>
+
+{% for title in songs %}
+<div class="listItem">
+    <span>{{title}}</span>
+</div>
+{% endfor %}
+
+
+{% endblock %}

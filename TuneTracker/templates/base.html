@@ -1,0 +1,43 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <nav class="menu_container">
+            <a class="link" href="http://127.0.0.1:8000/catalog">Catalog</a>
+            <a class="link" href="http://127.0.0.1:8000/">Songs</a>
+            <a class="link" href="http://127.0.0.1:8000/artists/">Artists</a>
+            <a class="link" href="http://127.0.0.1:8000/songs/new">Add Song</a>
+            <a class="link" href="http://127.0.0.1:8000/artists/new">Add Artist</a>
+        </nav>
+
+        <div class="mainContainer_child">
+            {% block content %}
+                
+            {% endblock %}
+        </div>
+
+
+
+        
+
+
+
+      
+
+
+       
+    </div>
+</body>
+
+</html>

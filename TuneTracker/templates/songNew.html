@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="titleBar">
+    <h3 class="title_text">Add Song</h3>
+</div>
+<form method="post">
+    {% csrf_token %}
+    <div class="form_container">
+
+        <div class="form_control">
+            <label>Song Title</label>
+            <input name="title"/>
+        </div>
+        <span class="error">
+            {% if errors and errors.title %}
+            {{errors.title }}
+            {% endif %}
+        </span>
+        <div class="form_control">
+            <label>Artist Name</label>
+           
+            <select name="artist">
+                <option value="">Select Artist</option>
+                {% for artist in artists %}
+                <option value={{artist.id}}>{{artist.name}}</option>
+                {% endfor %}
+            </select>
+            
+
+        </div>
+        <span class="error">
+            {% if errors and errors.artist %}
+            {{errors.artist }}
+            {% endif %}
+        </span>
+        <div class="form_control">
+            <button type="submit">Add Song</button>
+        </div>
+        {% if message %}
+        <span class="success">
+            {{message}}
+        </span>
+        {% endif %}
+    
+    </div>
+</form>
+
+{% endblock %}
